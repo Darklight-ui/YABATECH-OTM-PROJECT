@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/fonts/all.js"></script>
+    <link rel="stylesheet" href="/style.css">
+    <title>Contact - Group Leader</title>
+</head>
+
+<body>
+    <!-- Navigation menu -->
+    <header>
+        <div class="logo">
+            <a href="/index.html"><h1>Peculiar Group</h1></a>
+        </div>
+        <!-- <i class="fa fa-bars" onclick="btn()" id="open"></i>
+        <i class="fa fa-times" onclick="cls()" id="cls"></i> -->
+        <nav id="nav">
+            <ul class="nav__links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#">Lecturers</a></li>
+                </a></li>
+                <li><a href="#">Admin</a></li>
+                <div class="dropdown">
+                    <li><a href="#" onclick="dropdown()">Group Members<i class="fa fa-caret-down"
+                                aria-hidden="true"></i></i>
+                            <div class="group__member" id="btn">
+                                <a href="/pages/Ndukwo.html">Ndukwo Ada Rose </a>
+                                <a href="/pages/francisca.html">Francisca Ogankpa</a>
+                                <a href="/pages/akitaju.html">Akitaju Glory Ibukunoluwa</a>
+                                <a href="/pages/samuel.html">Samuel Victoria Ifeoma</a>
+                                <a href="/pages/odueh.html">ODUEH MOSES ANTHONY</a>
+                            </div>
+                </div>
+            </ul>
+        </nav>
+        <a href="/pages/contact.html" class="ctn"><button>Contact Us</button></a>
+        <div class="armburger" id="armburger">
+        </div>
+    </header>
+
+    <div id="form">
+
+        <div class="fish" id="fish"></div>
+        <div class="fish" id="fish2"></div>
+
+        <form id="waterform" method="post">
+
+            <div class="formgroup" id="name-form">
+                <label for="name">Your name*</label>
+                <input type="text" id="name" name="name" />
+            </div>
+
+            <div class="formgroup" id="email-form">
+                <label for="email">Your e-mail*</label>
+                <input type="email" id="email" name="email" />
+            </div>
+
+            <div class="formgroup" id="message-form">
+                <label for="message">Your message</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+
+            <input type="submit" value="Send your message!" />
+        </form>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
