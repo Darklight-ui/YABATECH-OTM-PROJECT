@@ -151,6 +151,7 @@ button:hover {
     .fa-times {
         display: inline-block;
         font-size: var(--fs-medium);
+        margin: auto 20px;
     }
 
     .fa-times {
