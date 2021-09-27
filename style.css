@@ -222,18 +222,28 @@ button:hover {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, .9);
 
 }
-
+.member__image > img{
+    width: 250px;
+    height: 250px;
+}
 .member__name {
     font-size: 24x;
     font-weight: 800;
     text-transform: uppercase;
 }
 
-@media (max-width:900px) {
+@media (max-width:800px) {
     .meet__dteam {
         display: flex;
         flex-direction: column;
+    }
 
+    .members{
+        width: 250px;
+    }
+    .member__image > img{
+        width: 200px;
+        height: 200px;
     }
 }
 
@@ -665,7 +675,11 @@ button:hover {
 
 form {
     margin: 0 auto;
-    width: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
     padding-top: 40px;
     color: white;
     position: relative;
@@ -755,4 +769,15 @@ label {
     -o-transition: background-image 0.7s;
     width: 566px;
     padding-top: 2px;
+}
+
+@media (max-width:500px){
+    form{
+        display: block;
+        margin: 0 10px;
+    }
+
+input, textarea{
+    width: 350px;
+}
 }
